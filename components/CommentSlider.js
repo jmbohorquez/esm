@@ -62,7 +62,7 @@ const CommentSlider = () => {
                             <figure className="slide-icon">
 
                             </figure>
-                            <p><i>"{ comment.comment }"</i></p>
+                            <p><i>{ comment.comment }</i></p>
                             <p><strong>{ comment.name }  / <br />{ comment.company }</strong></p>
                         </div>
                     ) )
