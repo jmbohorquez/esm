@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "nombre": "escape",
+        "heroTitle": "Plataforma para comunidad de viajeros",
+        "heroImg": "/images/proyectos/escape/hero-bg.jpg",
+        "conceptoLogo": "/images/proyectos/escape/concepto-logo.png",
+        "concepto": "<p>El reto fue desarrollar la marca para una plataforma digital de una comunidad de viajeros; bajo el concepto \"Un viajero sabe lo que otro necesita\", capturando así, la esencia del perfil de un viajero, para transmitir libertad y evocando la cultura colaborativa.</p><p>La creación del sistema visual y de comunicación, donde la fotografía forma parte fundamental, funciona como generadora de emociones y resalta la pasión por viajar, que a su vez son un motor en la formación de una comunidad de usuarios.</p>",
+        "conceptoBanner": "/images/proyectos/escape/concepto-banner.jpg",
+        "marcaCTA": "/images/proyectos/escape/marca-cta.jpg",
+        "imgPostCTA": "/images/proyectos/escape/post-cta.jpg",
+        "construccionMarca": "/images/proyectos/escape/construccion-marca.png",
+        "construccionImagen": "/images/proyectos/escape/construccion-imagen.jpg",
+        "simbolo": "/images/proyectos/escape/simbolo.png",
+        "textoSimbolo": "<p>Representando la letra \"A\" el comienzo del alfabeto, por estar en el medio de la composición y tener forma ascendente, la convertí en el principal foco de atención visual, rompiendo el esquema de lectura y poniéndola a \"volar\" en forma de avión, para generar una conexión entre el usuario y la marca, convirtiéndolo en el principal recurso. Además de simbolizar el movimiento de las alas que tiene un ave.</p>",
+        "bocetos": "/images/proyectos/escape/bocetos.jpg",
+        "implementacion": [
+            "/images/proyectos/escape/implementacion-1.jpg",
+            "/images/proyectos/escape/implementacion-2.jpg",
+            "/images/proyectos/escape/implementacion-3.jpg",
+            "/images/proyectos/escape/implementacion-4.jpg",
+            "/images/proyectos/escape/implementacion-5.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "outbox",
+        "heroTitle": "Think ouside of the box",
+        "heroImg": "/images/proyectos/outbox/hero-bg.jpg",
+        "conceptoLogo": "/images/proyectos/outbox/concepto-logo.png",
+        "concepto": "<p>Para crear una estructura que tiene su potencial en el interior, hay que pensar desde afuera. Una caja representa el contenido de valor de una idea con potencial y cuando hay una cabeza que ve y actúa como agente de acompañamiento externo en pro de los resultados, se convierte en OutBox.</p>",
+        "conceptoBanner": "/images/proyectos/outbox/concepto-banner.jpg",
+        "marcaCTA": "/images/proyectos/outbox/marca-cta.jpg",
+        "imgPostCTA": "/images/proyectos/outbox/post-cta.jpg",
+        "construccionMarca": "/images/proyectos/outbox/construccion-marca.png",
+        "construccionImagen": "/images/proyectos/outbox/construccion-imagen.jpg",
+        "simbolo": "/images/proyectos/outbox/simbolo.png",
+        "textoSimbolo": "<p>Estructuralmente una caja es rígida, es fuerte y cumple su función, pero hay ideas que quieren salirse de esa caja para mostrarle al mundo que ahí están. La magia sucede en el momento en que una base bien fundamentada, convierte esa gran idea en una gran empresa, prestando servicios 360º, analizando desde la promesa de valor, hasta su visión de mercado y apoyo en ventas.</p>",
+        "bocetos": "/images/proyectos/outbox/bocetos.jpg",
+        "implementacion": [
+            "/images/proyectos/outbox/implementacion-1.jpg",
+            "/images/proyectos/outbox/implementacion-2.jpg",
+            "/images/proyectos/outbox/implementacion-3.jpg",
+            "/images/proyectos/outbox/implementacion-4.jpg",
+            "/images/proyectos/outbox/implementacion-5.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "jar-deen",
+        "heroTitle": "Come sano, vive tu estilo de vida",
+        "heroImg": "/images/proyectos/jar-deen/hero-bg.jpg",
+        "conceptoLogo": "/images/proyectos/jar-deen/concepto-logo.png",
+        "concepto": "<p>El objetivo del proyecto era desarrollar un modelo de comunicación conceptual, gráfico y fotográfico centrado en el factor emocional, para cautivar a un grupo específico con un estilo de vida propio y su identidad de marca para distribución y comercialización.</p><p>El equilibrio de lo natural con un toque artesanal y definido bajo un concepto contemporáneo, resulta en una marca que representa una alimentación 100% vegana y basada en la filosofía de marca que cautiva a los que viven esta tradición y encuentran su estilo de vida representada en una simbología de lo que “Nos da el Jardín”, idea donde encuentran sus raíces los productos de esta nueva marca.</p>",
+        "conceptoBanner": "/images/proyectos/jar-deen/concepto-banner.jpg",
+        "marcaCTA": "/images/proyectos/jar-deen/marca-cta.jpg",
+        "imgPostCTA": "/images/proyectos/jar-deen/post-cta.jpg",
+        "construccionMarca": "/images/proyectos/jar-deen/construccion-marca.png",
+        "construccionImagen": "/images/proyectos/jar-deen/construccion-imagen.jpg",
+        "simbolo": "/images/proyectos/jar-deen/simbolo.png",
+        "textoSimbolo": "<p>La escencia de un ser humano radica en su estilo de vida y adaptarse a este es una tarea que la marca decidió emprender, enfocando sus esfuerzos en ofrecer productos que se adaptaran a este estilo, y por ende, crear un concepto basado en esta filosofía, a partir de formas que aportaran al bienestar, el cuidado del cuerpo y el equilibrio de la mente.</p>",
+        "bocetos": "/images/proyectos/jar-deen/bocetos.jpg",
+        "implementacion": [
+            "/images/proyectos/jar-deen/implementacion-1.jpg",
+            "/images/proyectos/jar-deen/implementacion-2.jpg",
+            "/images/proyectos/jar-deen/implementacion-3.jpg",
+            "/images/proyectos/jar-deen/implementacion-4.jpg",
+            "/images/proyectos/jar-deen/implementacion-5.jpg"
+        ]
+    }
+]

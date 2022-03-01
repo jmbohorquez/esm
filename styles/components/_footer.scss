@@ -1,0 +1,52 @@
+@use '../basic/colores' as *;
+@use '../basic/queries' as *;
+
+.footer{
+    background-color: $color-8;
+    padding: 4rem;
+
+    h3{
+        color: #FFF;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p{
+        color: #FFF;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    @include breakpoints( phone ){
+        padding: 4rem 2rem;
+    }
+}
+.footer_column{
+    width: 40%;
+
+    @include breakpoints( phone ){
+        width: 80%;
+
+        h3{
+            font-size: 2rem;
+        }
+    }
+}
+.footer__redes-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 1rem 0;
+
+    a{
+        display: block;
+        height: 32px;
+        width: 32px;
+
+        svg{
+            height: 100%;
+            width: auto;
+        }
+    }
+}

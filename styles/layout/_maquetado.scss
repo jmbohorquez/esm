@@ -1,0 +1,70 @@
+@use '../basic/colores' as *;
+@use '../basic/queries' as *;
+
+// ***************************************** Ubicacion
+
+.center{
+    margin: auto;
+}
+
+// ***************************************** Textos
+
+.text-align-center{
+    text-align: center;
+}
+.text-color-5{
+    color: $color-5;
+}
+.text-color-6{
+    color: $color-6;
+}
+.text-color-white{
+    color: #FFF;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+// ***************************************** Flex
+
+.col-gap-2{
+    column-gap: 2rem;
+}
+.flex{
+    display: flex;
+}
+.flex-flow-row{
+    flex-flow: row;
+
+    @include breakpoints ( phone ){
+        flex-flow: column;
+    }
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+
+// ***************************************** Listas
+
+.no-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+// ***************************************** Paneles
+
+.panel{
+    padding: 4rem 0;
+
+    h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+}

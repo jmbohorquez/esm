@@ -1,0 +1,139 @@
+@use '../basic/queries' as *;
+
+.iceberg{
+    height: 700px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    width: 80%;
+
+    @include breakpoints ( phone ){
+        height: 352px;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+.iceberg-container{
+    height: 520px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 620px;
+    z-index: 1;
+
+    @include breakpoints ( phone ){
+        height: 210px;
+        top: 35px;
+        width: 250px;
+    }
+}
+.iceberg-cielo{
+    position: absolute;
+    top: 24%;
+    width: 100%;
+}
+.iceberg-sombra{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    animation: float-sombra 4s ease-in-out infinite;
+}
+.flag{
+    height: 80px;
+    left: 0;
+    margin: auto;
+    padding-left: 16px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 60px;
+    z-index: 0;
+
+    video{
+        height: 100%;
+        width: auto;
+    }
+}
+.iceberg-ice{
+    bottom: 10px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    animation: float-ice 4s ease-in-out infinite;
+    
+    svg{
+        display: block;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        width: auto;
+        z-index: 1;
+    }
+}
+.iceberg-mar{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.iceberg-text{
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+    p{
+        font-size: 1.5rem;
+        margin-top: 30%;
+        text-align: center;
+        width: 70%;
+
+        @include breakpoints ( phone ){
+            font-size: .8rem;
+        }
+    }
+}
+.iceberg-image-container{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    @include breakpoints ( phone ){
+        height: 115%;
+        left: -7.5%;
+        top: -7%;
+        width: 115%;
+    }
+}
+
+
+@keyframes float-ice{
+	0% {
+		transform: translateY(15px);
+    }
+	50%{
+		transform: translateY(0);
+    }
+	100%{
+		transform: translateY(15px);
+    }
+}
+		
+@keyframes float-sombra{
+	0%{
+		transform: translateY(5px);
+    }
+	50%{
+		transform: translateY(-5px);
+    }
+	100%{
+		transform: translateY(5px);
+    }
+}

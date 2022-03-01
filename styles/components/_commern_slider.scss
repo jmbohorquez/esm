@@ -1,0 +1,25 @@
+
+.comentarios-slider{
+    margin: auto;
+    width: 80%;
+}
+.slide-icon{
+    background-color: #AAA;
+    border-radius: 50%;
+    display: block;
+    height: 96px;
+    margin: auto;
+    width: 96px;
+}
+.keen-slider__slide{
+    padding: 1rem;
+    width: 33.3333%;
+
+    &:hover{
+        cursor: w-resize;
+    }
+
+    &:active, &:focus{
+        cursor: grabbing;
+    }
+}

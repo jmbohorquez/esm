@@ -1,0 +1,33 @@
+@use '../basic/colores' as *;
+
+.bg-5{
+    background-color: $color-5;
+}
+.fondo-banner-home{
+    background: rgb(181,231,237);
+    background: linear-gradient(90deg, $color-2 0%, $color-3 50%, $color-4 100%);
+}
+.fondo-banner-servicios{
+    background: rgb(235,255,188);
+    background: linear-gradient(90deg, rgba(235,255,188,1) 0%, rgba(213,255,112,1) 51%, rgba(14,255,235,1) 100%);
+}
+.servicios__branding{
+    background: rgb(255,166,120);
+    background: linear-gradient(230deg, rgba(255,166,120,1) 0%, rgba(242,19,106,1) 51%, rgba(255,166,120,1) 100%);
+}
+.servicios__tecnologia{
+    background: rgb(159,40,255);
+    background: linear-gradient(230deg, rgba(159,40,255,1) 0%, rgba(124,28,255,1) 51%, rgba(159,40,255,1) 100%);
+}
+.servicios__marketing{
+    background: rgb(103,255,98);
+    background: linear-gradient(230deg, rgba(103,255,98,1) 0%, rgba(1,155,109,1) 37%, rgba(1,155,109,1) 57%, rgba(103,255,98,1) 100%);
+}
+.fondo-banner-proyectos{
+    background: rgb(175,207,241);
+    background: linear-gradient(90deg, rgba(175,207,241,1) 0%, rgba(106,232,235,1) 50%, rgba(171,28,255,1) 100%);
+}
+.fondo-banner-proyecto{
+    background: rgb(255,0,56);
+    background: linear-gradient(90deg, rgba(255,0,56,1) 0%, rgba(244,55,114,1) 50%, rgba(255,178,128,1) 100%);
+}

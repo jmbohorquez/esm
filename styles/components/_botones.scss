@@ -1,0 +1,33 @@
+@use '../basic/colores' as *;
+
+.btn{
+    border:none;
+    border-radius: 4px;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    padding: .6rem 1.5rem;
+    width: fit-content;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.btn-icon{
+    span{
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+
+        svg{
+            fill: #FFF;
+        }
+    }
+}
+.btn-blanco{
+    background-color: #FFF;
+    color: $color-5;
+}
+.btn-red{
+    background-color: $color-1;
+    color: #FFF;
+}

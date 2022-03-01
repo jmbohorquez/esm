@@ -1,0 +1,35 @@
+@use '../basic/queries' as *;
+
+.ancho-25{
+    width: 25%;
+}
+.ancho-33{
+    width: 33.333%;
+}
+.ancho-40{
+    width: 40%;
+}
+.ancho-50{
+    width: 50%;
+
+    @include breakpoints ( phone ){
+        width: 100%;
+    }
+}
+.ancho-60{
+    width: 60%;
+}
+.ancho-80{
+    width: 80%;
+}
+.ancho-90{
+    width: 90%;
+}
+
+
+.height-100{
+    height: 100vh;
+}
+.height-50{
+    height: 50vh;
+}
