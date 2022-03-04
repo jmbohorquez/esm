@@ -6,6 +6,9 @@ import Header from '../components/Header'
 import Ojo from '../components/OjoESM'
 import CommentSlider from '../components/CommentSlider'
 import IcebergHome from '../components/IcebergHome'
+import Equipo from '../components/equipo'
+
+import equipoList from '../content/equipo.json'
 
 import Branding from '../public/images/branding.svg'
 import Tecnologia from '../public/images/tecnologia.svg'
@@ -79,7 +82,7 @@ const Home = () => {
                             <h3 className="text-align-center">¿Por dónde quieres empezar?</h3>
                             <ul className="no-list">
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/">
+                                    <Link href="/servicios#Branding">
                                         <a>
                                             <Branding />
                                             Branding
@@ -87,7 +90,7 @@ const Home = () => {
                                     </Link>
                                 </li>
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/">
+                                    <Link href="/servicios#Tecnologia">
                                         <a>
                                             <Tecnologia />
                                             Tecnología
@@ -95,7 +98,7 @@ const Home = () => {
                                     </Link>
                                 </li>
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/">
+                                    <Link href="/servicios#Marketing">
                                         <a>
                                             <Marketing />
                                             Marketing
@@ -115,35 +118,18 @@ const Home = () => {
                             <p>Partimos de la premisa que no hay un cliente igual a otro, por eso nuestras propuestas son hechas a la medida.</p>
                             <p>Elaboramos un <strong>diagnóstico inicial</strong> desde el punto de vista Creativo, Tecnológico y de Marketing, que nos lleva a identificar las <strong>necesidades y oportunidades de la marca.</strong></p>
                         </div>
-                        <div className="inicio__equipo-card-container flex flex-flow-row justify-space-between col-gap-2">
-                            <div className="inicio__equipo-card">
-                                <div className="card-inner">
-                                    <p className="text-color-white">Administradora de Empresas y Máster en Dirección de Marketing.</p>
-                                    <p className="text-color-white">Con más de 12 años de experiencia desarrollando estrategias B2B y B2C, customer experience, negociación y alianzas estratégicas. Con efoque en planificación, creación y ejecución de campañas.</p>
-                                    <p className="text-color-white">Es la que orienta los proyectos estratégicamente, mediante una comunicación efectiva equipo-cliente, participando en las diferentes etapas, desde la planificación hasta la entrega del producto final.</p>
-                                </div>
-                            </div>
-                            <div className="inicio__equipo-card ancho-25">
-                                <div className="card-inner">
-                                    <p className="text-color-white">Diseñador Gráfico especialista en desarrollo y consultoría de marca.</p>
-                                    <p className="text-color-white">Durante 18 años ha impactado cerca de 200 marcas, materializando ideas de negocio y diseñando experiencias a través de la creación de identidad corporativa, apoyando emprendimientos de diferentes industrias en Colombia, Uruguay, Perú, Estados Unidos, UK.</p>
-                                    <p className="text-color-white">Es el que da personalidad a las ideas, guiado por la pasión de conceptualizarlas de forma creativa y partiendo del visual storytelling.</p>
-                                </div>
-                            </div>
-                            <div className="inicio__equipo-card ancho-25">
-                                <div className="card-inner">
-                                    <p className="text-color-white">Diseñador Gráfico y fotógrafo, experto en gestión, coordinación y ejecución de proyectos.</p>
-                                    <p className="text-color-white">Con más de 17 años de experiencia liderando proyectos de mercadeo, publicidad y equipos multifuncionales, desarrollando estrategias comerciales y de negociación.</p>
-                                    <p className="text-color-white">Es el encargado de coordinar el equipo para establecer, gestionar y optimizar los presupuestos de nuestros clientes.</p>
-                                </div>
-                            </div>
-                            <div className="inicio__equipo-card ancho-25">
-                                <div className="card-inner">
-                                    <p className="text-color-white">Diseñador Gráfico experto en desarrollo e implementación de entornos graficos digitales desde el frontend hasta el backend.</p>
-                                    <p className="text-color-white">Cuenta con 20 años de experiencia en diseño vanguardista y creación de sitios web, multimedia y aplicaciones web de alto impacto, usando múltiples plataformas CMS y desarrollo de código a medida.</p>
-                                    <p className="text-color-white">Es el que lidera soluciones tecnológicas para los proyectos de clientes que requieren llevar su negocio al mundo digital.</p>
-                                </div>
-                            </div>
+                        <div className="inicio__equipo-card-container">
+                            {
+                                equipoList.map( person => (
+                                    <Equipo 
+                                        key={ person.id }
+                                        imagen={ person.imagen } 
+                                        nombre={ person.nombre } 
+                                        cargo={ person.cargo } 
+                                        descripcion={ person.descripcion }
+                                    />
+                                ) )
+                            }
                         </div>
                     </div>
                     <div className="inicio__equipo-ojos">

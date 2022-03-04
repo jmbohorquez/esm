@@ -19,16 +19,15 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer_column center">
                     <h3>Contáctanos</h3>
-                    <p>(+57) 300 791 8979 | (+57) 318 623 3948</p>
                     <div className="footer__redes-container">
-                        <Link href="/">
-                            <a><Facebook /></a>
+                        <Link href="https://www.facebook.com/esmarcas">
+                            <a target="_blank"><Facebook /></a>
                         </Link>
-                        <Link href="/">
-                            <a><Instagram /></a>
+                        <Link href="https://www.instagram.com/estamosensusmarcas/">
+                            <a target="_blank"><Instagram /></a>
                         </Link>
-                        <Link href="/">
-                            <a><Linkedin /></a>
+                        <Link href="https://www.linkedin.com/company/esmarcas/">
+                            <a target="_blank"><Linkedin /></a>
                         </Link>
                         <Link href="/">
                             <a onClick={ () => mostrarOcultarContacto( true ) }><Mail /></a>

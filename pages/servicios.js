@@ -24,7 +24,7 @@ const serviciosList = [
     },
     {
         id: 2,
-        title: 'teck',
+        title: 'tech',
         icon: <Tecnologia />,
         content: 'Desarrollar soluciones tecnológicas a la medida, para tener una visibilidad real del negocio en internet.',
         link: '/servicios/#Tecnologia'

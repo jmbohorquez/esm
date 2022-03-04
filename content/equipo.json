@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "María Alejandra Ortegón",
+        "cargo": "Directora y Planner de Marketing Digital",
+        "imagen": "/images/male.png",
+        "descripcion": "<p>Con más de 12 años de experiencia desarrollando estrategias B2B y B2C, customer experience, negociación y alianzas estratégicas. Con efoque en planificación, creación y ejecución de campañas.</p><p>Es la que orienta los proyectos estratégicamente, mediante una comunicación efectiva equipo-cliente, participando en las diferentes etapas, desde la planificación hasta la entrega del producto final.</p>"
+    },
+    {
+        "id": 2,
+        "nombre": "Juan Pablo Duarte",
+        "cargo": "Diseñador Gráfico especialista en desarrollo y consultoría de marca.",
+        "imagen": "/images/juan-pablo.png",
+        "descripcion": "<p>Durante 18 años ha impactado cerca de 200 marcas, materializando ideas de negocio y diseñando experiencias a través de la creación de identidad corporativa, apoyando emprendimientos de diferentes industrias en Colombia, Uruguay, Perú, Estados Unidos, UK.</p><p>Es el que da personalidad a las ideas, guiado por la pasión de conceptualizarlas de forma creativa y partiendo del visual storytelling.</p>"
+    },
+    {
+        "id": 3,
+        "nombre": "Mauricio Ortiz",
+        "cargo": "Diseñador Gráfico y fotógrafo, experto en gestión, coordinación y ejecución de proyectos.",
+        "imagen": "/images/mauricio.png",
+        "descripcion": "<p>Con más de 17 años de experiencia liderando proyectos de mercadeo, publicidad y equipos multifuncionales, desarrollando estrategias comerciales y de negociación.</p><p>Es el encargado de coordinar el equipo para establecer, gestionar y optimizar los presupuestos de nuestros clientes.</p>"
+    },
+    {
+        "id": 4,
+        "nombre": "Julian Bohorquez",
+        "cargo": "Experto en desarrollo e implementación de entornos graficos digitales desde el frontend hasta el backend.",
+        "imagen": "/images/julian.png",
+        "descripcion": "<p>Cuenta con 20 años de experiencia en diseño vanguardista y creación de sitios web, multimedia y aplicaciones web de alto impacto, usando múltiples plataformas CMS y desarrollo de código a medida.</p><p>Es el que lidera soluciones tecnológicas para los proyectos de clientes que requieren llevar su negocio al mundo digital.</p>"
+    }
+]

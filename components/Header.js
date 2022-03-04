@@ -64,18 +64,18 @@ const Header = () => {
                 </nav>
                 <ul className="social-nav no-list flex flex-flow-row justify-space-between">
                     <li>
-                        <Link href="/">
-                            <a><Facebook /></a>
+                        <Link href="https://www.facebook.com/esmarcas">
+                            <a target="_blank"><Facebook /></a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/">
-                            <a><Linkedin /></a>
+                        <Link href="https://www.instagram.com/estamosensusmarcas/">
+                            <a target="_blank"><Linkedin /></a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/">
-                            <a><Instagram /></a>
+                        <Link href="https://www.linkedin.com/company/esmarcas/">
+                            <a target="_blank"><Instagram /></a>
                         </Link>
                     </li>
                 </ul>

@@ -49,23 +49,23 @@ const Contacto = () => {
                             <p>Director Comercial</p>
                             <div className="descrip-boton-container">
                                 <Link href="#">
-                                    <a className="btn btn-icon btn-red"><span><IconCall /></span> Llamar</a>
+                                    <a className="btn btn-icon btn-red contacto-llamar"><span><IconCall /></span> Llamar</a>
                                 </Link>
                                 <Link href="#">
-                                    <a className="btn btn-icon btn-red"><span><IconWhatsapp /></span> Escribir</a>
+                                    <a className="btn btn-icon btn-red contacto-escribir"><span><IconWhatsapp /></span> Escribir</a>
                                 </Link>
                             </div>
                         </div>
                     </div>
                     <div className="contacto__redes">
-                        <Link href="#">
-                            <a><Facebook /></a>
+                        <Link href="https://www.facebook.com/esmarcas">
+                            <a target="_blank"><Facebook /></a>
                         </Link>
-                        <Link href="#">
-                            <a><Instagram /></a>
+                        <Link href="https://www.instagram.com/estamosensusmarcas/">
+                            <a target="_blank"><Instagram /></a>
                         </Link>
-                        <Link href="#">
-                            <a><LinkedIn /></a>
+                        <Link href="https://www.linkedin.com/company/esmarcas/">
+                            <a target="_blank"><LinkedIn /></a>
                         </Link>
                     </div>
                 </div>

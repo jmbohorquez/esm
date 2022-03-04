@@ -286,29 +286,18 @@ background: linear-gradient(54deg, rgba(230,25,65,1) 0%, rgba(255,70,80,1) 100%)
         }
     }
 }
+
 .inicio__equipo-card-container{
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
     padding: 2rem 0;
     width: 90%;
 
     @include breakpoints ( phone ){
         flex-flow: column;
         row-gap: 2rem;
-        width: 100%;
-    }
-}
-.inicio__equipo-card{
-    background: rgb(45,104,128);
-    background: linear-gradient(0deg, rgba(45,104,128,1) 0%, rgba(83,143,150,1) 43%);
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    padding: 1.5rem;
-    width: 25%;
-
-    p{
-        font-size: .8rem;
-    }
-
-    @include breakpoints ( phone ){
         width: 100%;
     }
 }
