@@ -161,9 +161,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="inicio__proyectos panel">
-                    <h2>Nuestros Proyectos</h2>
-                </div>
                 <div className="inicio__clientes panel">
                     <h2>Algunos de Nuestros Clientes</h2>
                     <p className="text-align-center center">Ellos han tomado la decisión de transformar sus <strong>ideas de negocio en grandes marcas</strong> con nosotros.</p>

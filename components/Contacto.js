@@ -21,7 +21,7 @@ const Contacto = () => {
         <div className="contacto__container">
             <div className="contacto__close-btn">
                 <button 
-                    className="btn btn-blanco"
+                    className="btn btn-red btn-cerrar"
                     onClick = { () => mostrarOcultarContacto( false ) }
                 >
                     X
@@ -32,12 +32,12 @@ const Contacto = () => {
                     <figure className="contacto__logo">
                         <Logo />
                     </figure>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nibh lobortis, ullamcorper sapien sit amet, elementum erat. </p>
+                    <p>Contáctanos mandando un mensaje a nuestro correo electrónico a través del formulario que encuentras a continuación o a través de whatsapp hablando directamente con nuestro director comercial.</p>
                     <div className="contacto__mauricio">
                         <figure className="mauricio-foto">
                             <div className="mauricio-foto-inner">
                                 <Image 
-                                    alt="Mauricio Ortis, Director comercial"
+                                    alt="Mauricio Ortiz, Director comercial"
                                     src="/images/mauricio-ortis.png"
                                     layout="fill"
                                     objectFit="contain"
@@ -48,11 +48,11 @@ const Contacto = () => {
                             <h3>Mauricio Ortiz</h3>
                             <p>Director Comercial</p>
                             <div className="descrip-boton-container">
-                                <Link href="#">
+                                <Link href="tel:+573007918979">
                                     <a className="btn btn-icon btn-red contacto-llamar"><span><IconCall /></span> Llamar</a>
                                 </Link>
-                                <Link href="#">
-                                    <a className="btn btn-icon btn-red contacto-escribir"><span><IconWhatsapp /></span> Escribir</a>
+                                <Link href="https://api.whatsapp.com/send?phone=+573007918979&text=Hola,%20busco%20información%20sobre%20En%20Sus%20Marcas">
+                                    <a className="btn btn-icon btn-red contacto-escribir" target="_blank"><span><IconWhatsapp /></span> Escribir</a>
                                 </Link>
                             </div>
                         </div>

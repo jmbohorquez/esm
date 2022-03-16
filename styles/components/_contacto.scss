@@ -118,6 +118,13 @@
     display: flex;
     column-gap: 2rem;
 }
+.contacto-llamar{
+    display: none;
+
+    @include breakpoints ( phone ){
+        display: block;
+    }
+}
 .contacto__col-contact{
     width: 50%;
 

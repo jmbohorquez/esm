@@ -53,7 +53,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={`nav-item ${ pathname === '/contacto' ? 'nav-item-current' : '' }`}>
-                            <Link href="/">
+                            <Link href="#">
                                 <a onClick={ () => {
                                     mostrarOcultarContacto( true )
                                     abrirCerrarMenu( false )

@@ -29,7 +29,7 @@ const Footer = () => {
                         <Link href="https://www.linkedin.com/company/esmarcas/">
                             <a target="_blank"><Linkedin /></a>
                         </Link>
-                        <Link href="/">
+                        <Link href="#">
                             <a onClick={ () => mostrarOcultarContacto( true ) }><Mail /></a>
                         </Link>
                     </div>
