@@ -22,7 +22,7 @@ const Proyectos = () => {
             </section>
             <main>
                 <div className="height-100 flex flex-flow-row">
-                    <div className="proyectos__link-container ancho-50">
+                    <div className="proyectos__link-container proyectos__jar-dean ancho-50">
                         <div className="proyectos__link-image link-image-jar-dean">
                             <figure className="inner">
                                 <Image 
@@ -43,8 +43,8 @@ const Proyectos = () => {
                             </a>
                         </Link>
                     </div>
-                    <div className="ancho-50">
-                        <div className="proyectos__link-container proyectos_link-height-50">
+                    <div className="proyectos__compuesto ancho-50">
+                        <div className="proyectos__link-container proyectos__escape proyectos_link-height-50">
                             <div className="proyectos__link-image link-image-escape">
                                 <figure className="inner">
                                     <Image 
@@ -68,7 +68,7 @@ const Proyectos = () => {
                                 </a>
                             </Link>
                         </div>
-                        <div className="proyectos__link-container proyectos_link-height-50">
+                        <div className="proyectos__link-container proyectos__outbox proyectos_link-height-50">
                             <div className="proyectos__link-image link-image-outbox">
                                 <figure className="inner">
                                     <Image 
