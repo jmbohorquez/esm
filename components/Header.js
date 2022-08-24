@@ -5,6 +5,9 @@ import Link from 'next/link'
 import contactContext from '../context/contact/contactContext'
 import menuContext from '../context/menu/menuContext'
 
+import Labels from '../locals/nav.json'
+import LocalSwitcher from './LocalSwitcher'
+
 import Logo from '../public/images/logo.svg'
 import Facebook from '../public/images/icon-facebook.svg'
 import Linkedin from '../public/images/icon-linkedin.svg'
@@ -19,8 +22,7 @@ const Header = () => {
     const { estadoMenu, abrirCerrarMenu } = MenuContext
     
     const router = useRouter()
-    const { pathname } = router
-    console.log( pathname )
+    const { pathname, locale } = router
     
     return(
         <header className="header">
@@ -44,12 +46,12 @@ const Header = () => {
                     <ul className={`main-nav no-list flex flex-flow-row justify-space-between ${ estadoMenu ? 'menu-open' : '' }`}>
                         <li className={`nav-item ${ pathname === '/servicios' ? 'nav-item-current' : '' }`}>
                             <Link href="/servicios">
-                                <a onClick={ () => abrirCerrarMenu( false ) }>Servicios</a>
+                                <a onClick={ () => abrirCerrarMenu( false ) }>{ Labels[ locale ].services }</a>
                             </Link>
                         </li>
                         <li className={`nav-item ${ pathname === '/proyectos' ? 'nav-item-current' : '' }`}>
                             <Link href="/proyectos">
-                                <a onClick={ () => abrirCerrarMenu( false ) }>Proyectos</a>
+                                <a onClick={ () => abrirCerrarMenu( false ) }>{ Labels[ locale ].projects }</a>
                             </Link>
                         </li>
                         <li className={`nav-item ${ pathname === '/contacto' ? 'nav-item-current' : '' }`}>
@@ -57,7 +59,7 @@ const Header = () => {
                                 <a onClick={ () => {
                                     mostrarOcultarContacto( true )
                                     abrirCerrarMenu( false )
-                                } }>Contacto</a>
+                                } }>{ Labels[ locale ].contact }</a>
                             </Link>
                         </li>
                     </ul>
@@ -79,6 +81,7 @@ const Header = () => {
                         </Link>
                     </li>
                 </ul>
+                <LocalSwitcher />
             </div>
         </header>
     )

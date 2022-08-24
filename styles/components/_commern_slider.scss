@@ -4,11 +4,15 @@
     width: 80%;
 }
 .slide-icon{
+    align-items: center;
     background-color: #AAA;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 96px;
     margin: auto;
+    padding: 1rem;
+    position: relative;
     width: 96px;
 }
 .keen-slider__slide{

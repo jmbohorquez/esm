@@ -8,7 +8,8 @@ import CommentSlider from '../components/CommentSlider'
 import IcebergHome from '../components/IcebergHome'
 import Equipo from '../components/equipo'
 
-import equipoList from '../content/equipo.json'
+//Locals
+import Locals from '../locals/home.json'
 
 import Branding from '../public/images/branding.svg'
 import Tecnologia from '../public/images/tecnologia.svg'
@@ -41,7 +42,8 @@ import LogoGeoterra from '../public/images/logos/logo-geoterra-bn.svg'
 import LogoIpler from '../public/images/logos/logo-ipler-bn.svg'
 import LogoFindeco from '../public/images/logos/logo-findeco-bn.svg'
 
-const Home = () => {
+const Home = ({ locale }) => {
+
     return (
         <>
             <Head>
@@ -66,11 +68,8 @@ const Home = () => {
                             <figure className="quienes-somos-image">
                                 <Ojo />
                             </figure>
-                            <h2 className="text-align-center text-color-6">Quiénes somos</h2>
-                            <p className="text-color-white">Somos una agencia especializada en <strong>Branding, Tecnología y Marketing</strong> que ofrece soluciones a la medida de cada cliente.</p>
-                            <p className="text-color-white">Ofrecemos soluciones innovadoras de <strong>Diseño, Estrategia y Comunicación</strong> para posicionar de manera efectiva las marcas. </p>
-                            <p className="text-color-white">Nos dirigimos a pequeñas y medianas empresas, que buscan asesoría y acompañamiento para <strong>lograr un mayor alcance</strong> con sus comunicaciones y cuyas necesidades digitales superan, lo que las herramientas digitales gratuitas ofrecen.</p>
-                            <p className="text-color-white">Proveemos estrategias de alto impacto a empresas que lanzaron su producto o servicio y están en busca de nuevas herramientas para <strong>incrementar sus ventas y construir marca y  relaciones duraderas con sus clientes.</strong></p>
+                            <h2 className="text-align-center text-color-6">{ Locals[ locale ].we.title }</h2>
+                            <div dangerouslySetInnerHTML={{ __html: Locals[ locale ].we.content }} />
                         </div>
                         <div className="col-space col-space-right">
                             <div className="col-space-inner"></div>
@@ -79,13 +78,13 @@ const Home = () => {
                     <div className="inicio__quienes-somos-footer-container flex">
                         <div className="col-space footer-space-left"></div>
                         <div className="inicio__quienes-somos-text-footer">
-                            <h3 className="text-align-center">¿Por dónde quieres empezar?</h3>
+                            <h3 className="text-align-center">{ Locals[ locale ].work.title }</h3>
                             <ul className="no-list">
                                 <li className="inicio__quienes-somos-item">
                                     <Link href="/servicios#Branding">
                                         <a>
                                             <Branding />
-                                            Branding
+                                            { Locals[ locale ].work.branding }
                                         </a>
                                     </Link>
                                 </li>
@@ -93,7 +92,7 @@ const Home = () => {
                                     <Link href="/servicios#Tecnologia">
                                         <a>
                                             <Tecnologia />
-                                            Tecnología
+                                            { Locals[ locale ].work.tech }
                                         </a>
                                     </Link>
                                 </li>
@@ -101,7 +100,7 @@ const Home = () => {
                                     <Link href="/servicios#Marketing">
                                         <a>
                                             <Marketing />
-                                            Marketing
+                                            { Locals[ locale ].work.marketing }
                                         </a>
                                     </Link>
                                 </li>
@@ -113,20 +112,18 @@ const Home = () => {
                 <div className="inicio__equipo">
                     <div className="inicio__equipo-inner ancho-80 center">
                         <div className="inicio__equipo-text">
-                            <h2>Quiénes estamos EnSusMarcas</h2>
-                            <p>Somos un equipo de 4 profesionales, que <strong>evalúa de manera integral las necesidades</strong> de cada cliente. En el ADN de nuestra empresa está garantizarle al cliente que la estrategia que diseñemos para él va a estar siempre en cabeza de nosotros.</p>
-                            <p>Partimos de la premisa que no hay un cliente igual a otro, por eso nuestras propuestas son hechas a la medida.</p>
-                            <p>Elaboramos un <strong>diagnóstico inicial</strong> desde el punto de vista Creativo, Tecnológico y de Marketing, que nos lleva a identificar las <strong>necesidades y oportunidades de la marca.</strong></p>
+                            <h2>{ Locals[ locale ].team.title }</h2>
+                            <div dangerouslySetInnerHTML={{ __html: Locals[ locale ].team.description }} />
                         </div>
                         <div className="inicio__equipo-card-container">
                             {
-                                equipoList.map( person => (
+                                Locals[ locale ].team.members.map( person => (
                                     <Equipo 
-                                        key={ person.id }
-                                        imagen={ person.imagen } 
-                                        nombre={ person.nombre } 
-                                        cargo={ person.cargo } 
-                                        descripcion={ person.descripcion }
+                                        key={ person.name }
+                                        imagen={ person.photoURL } 
+                                        nombre={ person.name } 
+                                        cargo={ person.position } 
+                                        descripcion={ person.cv }
                                     />
                                 ) )
                             }
@@ -162,8 +159,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="inicio__clientes panel">
-                    <h2>Algunos de Nuestros Clientes</h2>
-                    <p className="text-align-center center">Ellos han tomado la decisión de transformar sus <strong>ideas de negocio en grandes marcas</strong> con nosotros.</p>
+                    <h2>{ Locals[ locale ].customers.title }</h2>
+                    <p className="text-align-center center">{ Locals[ locale ].customers.description }</p>
                     <div className="inicio__clientes-list center">
                         <div className="clientes-list">
                             <figure className="clientes-item">
@@ -245,7 +242,7 @@ const Home = () => {
                         />
                     </figure>
                     <div className="inicio__copy-inner">
-                        <h3>Creamos experiencias de marca en función de sus usuarios</h3>
+                        <h3>{ Locals[ locale ].copyThree }</h3>
                         <LogoB />
                     </div>
                 </div>
@@ -256,6 +253,16 @@ const Home = () => {
             </main>
         </>
     )
+}
+
+export const getStaticProps = ({ locale }) => {
+
+    return {
+        props: {
+            locale
+        }
+    }
+
 }
 
 export default Home

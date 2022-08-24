@@ -4,7 +4,10 @@ import Image from 'next/image'
 
 import Header from '../components/Header'
 
-const Proyectos = () => {
+//Locals
+import Locals from '../locals/projects.json'
+
+const Proyectos = ({ locale }) => {
     return(
         <>
             <Head>
@@ -15,8 +18,8 @@ const Proyectos = () => {
                 <div className="site-banner-inner center">
                     <Header />
                     <div className="site__banner-copy pb-4">
-                        <h2>Nuestro reto: <br />Construir marcas que dejan huella</h2>
-                        <p className="site__banner-sub text-align-center text-color-5"><strong>Crear. Innovar. Inspirar.</strong></p>
+                        <h2 dangerouslySetInnerHTML={{ __html: Locals[ locale ].heroCopy }} />
+                        <p className="site__banner-sub text-align-center text-color-5"><strong>{ Locals[ locale ].heroCopySub }</strong></p>
                     </div>
                 </div>
             </section>
@@ -97,6 +100,16 @@ const Proyectos = () => {
             </main>
         </>
     )
+}
+
+export const getStaticProps = ({ locale }) => {
+
+    return {
+        props: {
+            locale
+        }
+    }
+
 }
 
 export default Proyectos

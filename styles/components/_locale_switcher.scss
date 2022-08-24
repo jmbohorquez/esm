@@ -1,0 +1,34 @@
+@use '../basic/colores' as *;
+
+.header-languaje-menu{
+    display: flex;
+    flex-flow: row;
+    margin: 0 0 0 1rem;
+    padding: 0;
+    position: relative;
+
+    li{
+        padding: 0 .5rem;
+        text-transform: uppercase;
+
+        &.current{
+            a{
+                color: $color-1;
+            }
+        }
+    }
+
+    &::after{
+        border-left:solid 1px #000;
+        bottom: 0;
+        content: '';
+        left: 0;
+        margin: auto auto;
+        position: absolute;
+        height: 20px;
+        right: 0;
+        transform: skewX( -10deg );
+        top: 0;
+        width: 1px;
+    }
+}

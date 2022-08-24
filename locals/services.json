@@ -1,0 +1,124 @@
+{
+    "es":{
+        "metaTitle": "Servicios",
+        "copyHeader": "El servicio ideal para tu marca",
+        "copyTwo":"Nos encanta <br />ver crecer <br />tu marca",
+        "services":[
+            {
+                "phase":"Fase 1",
+                "title":"Branding",
+                "copy":"Hacemos brillar tu negocio",
+                "description":"Creamos branding partiendo del presente (Concepto, creencias, valores, misión y visión), enfocándonos en un impacto futuro. Diseñamos experiencias de marca asegurándonos de crear una conexión con el usuario final. Convertimos tus ideas y modelos de negocio en marcas poderosas, marcas que ENAMORAN.",
+                "scopes":{
+                    "title":"Alcances",
+                    "list":[
+                        "Conceptualización de la idea (ADN de la Marca)",
+                        "Creación de Identidad Visual",
+                        "Construcción de Logotipo",
+                        "Manual de Identidad Corporativa",
+                        "Gráfica complementaria",
+                        "Diseño de material gráfico de apoyo"
+                    ]
+                },
+                "btnCta":"Ver proyectos"
+            },
+            {
+                "phase":"Fase 2",
+                "title":"Tecnología",
+                "copy":"Optimizamos tu negocio para tener presencia virtual",
+                "description":"Construimos sitios web enfocados en la retención y atracción de clientes. Diseñamos herramientas de optimización que nos permiten tener control y hacer seguimiento a cambios de comportamiento y tendencias del mercado actual.",
+                "scopes":{
+                    "title":"Alcances",
+                    "list":[
+                        "Sitios web (Desde páginas de llegada, hasta plataformas de e-Commerce)",
+                        "Soluciones a medida de tecnología de frontend & backend",
+                        "Progresive Web Aps (PWA)",
+                        "Sitios web programados Posicionamiento SEO"
+                    ]
+                },
+                "btnCta":"Ver proyectos"
+            },
+            {
+                "phase":"Fase 3",
+                "title":"Marketing",
+                "copy":"Posicionamos tu marca con estrategias efectivas",
+                "description":"Creamos estrategias de marketing omnicanal que hacen crecer a las empresas. Estrategias centradas en mejorar posicionamiento, engagement y generación de leads, traducidas en crecimiento de ventas en canales físicos y digitales.",
+                "scopes":{
+                    "title":"Alcances",
+                    "list":[
+                        "Estrategia de comunicación de Marca",
+                        "Estrategia de Posicionamiento online",
+                        "Análisis de mercado",
+                        "SEO / SEM",
+                        "Creación de campañas digitales",
+                        "E-Mail marketing",
+                        "Administración de redes sociales"
+                    ]
+                },
+                "btnCta":"Ver proyectos"
+            }
+        ],
+        "copyEnd":"Diseñamos soluciones a la medida de tu negocio"
+    },
+    "en":{
+        "metaTitle": "Services",
+        "copyHeader": "The ideal service for your brand",
+        "copyTwo":"We love <br />that your <br />brand grows",
+        "services":[
+            {
+                "phase":"Phase 1",
+                "title":"Branding",
+                "copy":"We make your business shine!",
+                "description":"We create branding based on the present (Concept, beliefs, values, mission, and vision), focusing on a future impact. We design brand experiences making sure to create a connection with the end user. We turn your ideas and business models into powerful brands, brands that FALL IN LOVE.",
+                "scopes":{
+                    "title":"Scopes",
+                    "list":[
+                        "Conceptualization of the idea (Brand DNA)",
+                        "Creation of Visual Identity",
+                        "Logo Construction",
+                        "Corporate identity manual",
+                        "Complementary graph",
+                        "Graphic material design support"
+                    ]
+                },
+                "btnCta":"View projects"
+            },
+            {
+                "phase":"Phase 2",
+                "title":"Technology",
+                "copy":"We optimize your business to have a virtual presence!",
+                "description":"We build websites focused on customer retention and attraction. We design optimization tools that allow us to control and monitor changes in behavior and trends in the current market.",
+                "scopes":{
+                    "title":"Scopes",
+                    "list":[
+                        "Websites (From landing pages to e-Commerce platforms)",
+                        "Bespoke frontend & backend technology solutions",
+                        "Progressive Web Apps (PWAs)",
+                        "Programmed Websites SEO Positioning"
+                    ]
+                },
+                "btnCta":"View projects"
+            },
+            {
+                "phase":"Phase 3",
+                "title":"Marketing",
+                "copy":"We position your brand with effective strategies!",
+                "description":"We create omnichannel marketing strategies that make companies grow. Strategies focused on improving positioning, engagement, and lead generation, translated into sales growth in physical and digital channels.",
+                "scopes":{
+                    "title":"Scopes",
+                    "list":[
+                        "Brand communication strategy",
+                        "Online Positioning Strategy",
+                        "Market analysis",
+                        "SEO / SEM",
+                        "Creation of digital campaigns",
+                        "Email marketing",
+                        "Social Media Management"
+                    ]
+                },
+                "btnCta":"View projects"
+            }
+        ],
+        "copyEnd":"We design tailored solutions to your business"
+    }
+}

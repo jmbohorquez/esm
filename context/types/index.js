@@ -1,3 +1,5 @@
 export const CONTACTO_VISIBLE = 'CONTACTO_VISIBLE'
 
 export const STATE_MENU = 'STATE_MENU'
+
+export const CURRENT_LOCALE = 'CURRENT_LOCALE'

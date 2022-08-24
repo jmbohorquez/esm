@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react'
 import Link from 'next/link'
 
-const ServicioItem = ({ title, icon, content, link }) => {
+const ServicioItem = ({ title, icon, content, cta, link }) => {
     
     const IconBrand = useRef( null )
     const TituloBrand = useRef( null )
@@ -37,7 +37,7 @@ const ServicioItem = ({ title, icon, content, link }) => {
             </div>
             <p>{ content }</p>
             <Link href={ link }>
-                <a className="btn btn-blanco" ref={ BtnBrand }>Saber más</a>
+                <a className="btn btn-blanco" ref={ BtnBrand }>{ cta }</a>
             </Link>
         </div>
     )

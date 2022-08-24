@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
 import CommentList from '../content/comments.json'
 
 const CommentSlider = () => {
+
+    const router = useRouter()
+    const slideLocale = router.locale
     
     const [ sliderRef ] = useKeenSlider(
         {
@@ -54,13 +58,19 @@ const CommentSlider = () => {
         <div className="comentarios-slider">
             <div ref={ sliderRef } className="keen-slider">
                 {
-                    CommentList.map( comment => (
+                    CommentList[slideLocale].map( comment => (
                         <div 
                             key = { comment.id }
                             className = "keen-slider__slide number-slide1"
                         >
                             <figure className="slide-icon">
-
+                                <Image 
+                                    alt={`logo ${ comment.company }`}
+                                    src={ comment.iconUrl }
+                                    layout="fixed"
+                                    height={ 64 }
+                                    width={ 64 }
+                                />
                             </figure>
                             <p><i>{ comment.comment }</i></p>
                             <p><strong>{ comment.name }  / <br />{ comment.company }</strong></p>

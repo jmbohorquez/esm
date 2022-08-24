@@ -1,8 +1,11 @@
 import { useContext } from 'react'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 import contactContext from '../context/contact/contactContext'
 import Contacto from './Contacto'
+
+import Labels from '../locals/footer.json'
 
 import Facebook from '../public/images/f-facebook.svg'
 import Instagram from '../public/images/f-instagram.svg'
@@ -13,12 +16,15 @@ const Footer = () => {
     
     const ContactContext = useContext( contactContext )
     const { contactVisible, mostrarOcultarContacto } = ContactContext
+
+    const router = useRouter()
+    const { locale } = router
     
     return(
         <>
             <footer className="footer">
                 <div className="footer_column center">
-                    <h3>Contáctanos</h3>
+                    <h3>{ Labels[ locale ].title }</h3>
                     <div className="footer__redes-container">
                         <Link href="https://www.facebook.com/esmarcas">
                             <a target="_blank"><Facebook /></a>
@@ -34,7 +40,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <p>©{ new Date().getFullYear() } EnSusMarcas <br />
-                    Agencia Digital y Creativa / Desarrollo de Marcas <br />
+                    { Labels[ locale ].copy } <br />
                     Bogotá, Colombia</p>
                 </div>
             </footer>

@@ -1,0 +1,12 @@
+{
+    "es":{
+        "services": "Servicios",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "en":{
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    }
+}

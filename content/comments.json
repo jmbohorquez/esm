@@ -1,30 +1,62 @@
-[
-    {
-        "id": 1,
-        "company": "Flavorite",
-        "name": "Adriana Loaiza",
-        "comment": "Un trabajo con mucha creatividad, profesionalismo, innovación y seriedad, cumpliendo con mi expectativa de principio a fin, logrando generar el impacto que la marca necesitaba. Quedé muy feliz y satisfecho con el trabajo realizado.",
-        "iconUrl": ""
-    },
-    {
-        "id": 2,
-        "company": "By The Wave",
-        "name": "Juanita Jiménez",
-        "comment": "Cuando las cosas se hacen con amor, sólo cosas buenas pueden pasar. Juan Pablo puso toda la creatividad para hacer mi sueño una realidad! Él es el responsable que hoy pueda visualizarme en un futuro no muy lejano con mi marca By The Wave, repartiendo alegría a través del baile.",
-        "iconUrl": ""
-    },
-    {
-        "id": 3,
-        "company": "Jar-Deen",
-        "name": "Andrea Ochoa",
-        "comment": "Juan Pablo no solo entendió perfecto el concepto de mi negocio, me asesoró, fue constante y puntual, sino que además me apoyó en mis ideas y me impulsó a que hoy sea una realidad. Su trabajo creando marca fue impecable. ¡Justo como lo soñaba!",
-        "iconUrl": ""
-    },
-    {
-        "id": 4,
-        "company": "Charles Tennant Canadá",
-        "name": "Sandra Castellanos",
-        "comment": "El profesionalismo, puntualidad, creatividad y compromiso de EnSusMarcas para el desarrollo de brochure, catalogos, material digital y otros fue excelente. Rápida adaptación al requerimiento, organizados y apoyaron todo el tiempo nuestros retos en fechas de entrega.",
-        "iconUrl": ""
-    }
-]
+{
+    "es": [
+        {
+            "id": 1,
+            "company": "Flavorite",
+            "name": "Adriana Loaiza",
+            "comment": "Un trabajo con mucha creatividad, profesionalismo, innovación y seriedad, cumpliendo con mi expectativa de principio a fin, logrando generar el impacto que la marca necesitaba. Quedé muy feliz y satisfecho con el trabajo realizado.",
+            "iconUrl": "/images/comments/logo-flavorite.png"
+        },
+        {
+            "id": 2,
+            "company": "By The Wave",
+            "name": "Juanita Jiménez",
+            "comment": "Cuando las cosas se hacen con amor, sólo cosas buenas pueden pasar. Juan Pablo puso toda la creatividad para hacer mi sueño una realidad! Él es el responsable que hoy pueda visualizarme en un futuro no muy lejano con mi marca By The Wave, repartiendo alegría a través del baile.",
+            "iconUrl": "/images/comments/logo-wave.png"
+        },
+        {
+            "id": 3,
+            "company": "Jar-Deen",
+            "name": "Andrea Ochoa",
+            "comment": "Juan Pablo no solo entendió perfecto el concepto de mi negocio, me asesoró, fue constante y puntual, sino que además me apoyó en mis ideas y me impulsó a que hoy sea una realidad. Su trabajo creando marca fue impecable. ¡Justo como lo soñaba!",
+            "iconUrl": "/images/comments/logo-jar-deen.png"
+        },
+        {
+            "id": 4,
+            "company": "Charles Tennant Canadá",
+            "name": "Sandra Castellanos",
+            "comment": "El profesionalismo, puntualidad, creatividad y compromiso de EnSusMarcas para el desarrollo de brochure, catalogos, material digital y otros fue excelente. Rápida adaptación al requerimiento, organizados y apoyaron todo el tiempo nuestros retos en fechas de entrega.",
+            "iconUrl": "/images/comments/logo-tennant.png"
+        }
+    ],
+    "en": [
+        {
+            "id": 1,
+            "company": "Flavorite",
+            "name": "Adriana Loaiza",
+            "comment": "work",
+            "iconUrl": "/images/comments/logo-flavorite.png"
+        },
+        {
+            "id": 2,
+            "company": "By The Wave",
+            "name": "Juanita Jiménez",
+            "comment": "Work",
+            "iconUrl": "/images/comments/logo-wave.png"
+        },
+        {
+            "id": 3,
+            "company": "Jar-Deen",
+            "name": "Andrea Ochoa",
+            "comment": "perfect",
+            "iconUrl": "/images/comments/logo-jar-deen.png"
+        },
+        {
+            "id": 4,
+            "company": "Charles Tennant Canadá",
+            "name": "Sandra Castellanos",
+            "comment": "Professional",
+            "iconUrl": "/images/comments/logo-tennant.png"
+        }
+    ]
+}

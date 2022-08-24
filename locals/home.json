@@ -1,0 +1,96 @@
+{
+    "es": {
+        "we": {
+            "title": "Quiénes somos",
+            "content":"<p class=\"text-color-white\">Agencia especializada en <strong>branding, marketing y soluciones digitales</strong> hechas a la medida de cada cliente.</p><p class=\"text-color-white\">Ofrecemos soluciones innovadoras de diseño, estrategia y comunicación para posicionar de manera efectiva las marcas. Nos dirigimos a <strong>pequeñas y medianas empresas</strong>, que buscan asesoría y acompañamiento para lograr un mayor alcance con sus comunicaciones y cuyas necesidades digitales superan, lo que las herramientas digitales gratuitas ofrecen.</p><p class=\"text-color-white\">Empresas que ya lanzaron su producto o servicio y están en busca de nuevas estrategias y herramientas para <strong>incrementar sus ventas</strong>.</p>"
+        },
+        "work": {
+            "title": "¿Por dónde quieres empezar?",
+            "branding": "Branding",
+            "tech": "Tecnología",
+            "marketing": "Marketing"
+        },
+        "team": {
+            "title": "Quiénes estamos EnSusMarcas",
+            "description":"<p>Somos un equipo de 4 socios que evalúa de manera <strong>integral</strong> las necesidades de cada cliente.</p><p>En el ADN de nuestra empresa está garantizar al cliente que la estrategia que diseñemos para él va a estar siempre en cabeza de nosotros. Partimos de la premisa que <strong>no hay un cliente igual a otro</strong>, por eso nuestras propuestas son hechas a la medida.</p><p>Elaboramos un <strong>diagnóstico inicial desde el punto de vista creativo</strong>, de marketing y digital, que nos lleva a identificar las necesidades y oportunidades de la marca.</p>",
+            "members": [
+                {
+                    "name": "María Alejandra Ortegón",
+                    "position": "Directora y Planner de Marketing Digital",
+                    "cv": "<p>Con más de 12 años de experiencia desarrollando estrategias B2B y B2C, customer experience, negociación y alianzas estratégicas. Con efoque en planificación, creación y ejecución de campañas.</p><p>Es la que orienta los proyectos estratégicamente, mediante una comunicación efectiva equipo-cliente, participando en las diferentes etapas, desde la planificación hasta la entrega del producto final.</p>",
+                    "photoURL": "/images/male.png"
+                },
+                {
+                    "name": "Juan Pablo Duarte",
+                    "position": "Diseñador Gráfico especialista en desarrollo y consultoría de marca.",
+                    "cv": "<p>Durante 18 años ha impactado cerca de 200 marcas, materializando ideas de negocio y diseñando experiencias a través de la creación de identidad corporativa, apoyando emprendimientos de diferentes industrias en Colombia, Uruguay, Perú, Estados Unidos, UK.</p><p>Es el que da personalidad a las ideas, guiado por la pasión de conceptualizarlas de forma creativa y partiendo del visual storytelling.</p>",
+                    "photoURL": "/images/juan-pablo.png"
+                },
+                {
+                    "name": "Mauricio Ortiz Maya",
+                    "position": "Diseñador Gráfico y fotógrafo, experto en gestión, coordinación y ejecución de proyectos.",
+                    "cv": "<p>Con más de 17 años de experiencia liderando proyectos de mercadeo, publicidad y equipos multifuncionales, desarrollando estrategias comerciales y de negociación.</p><p>Es el encargado de coordinar el equipo para establecer, gestionar y optimizar los presupuestos de nuestros clientes.</p>",
+                    "photoURL": "/images/mauricio.png"
+                },
+                {
+                    "name": "Julián Bohorquez",
+                    "position": "Experto en desarrollo e implementación de entornos graficos digitales desde el frontend hasta el backend.",
+                    "cv": "<p>Cuenta con 20 años de experiencia en diseño vanguardista y creación de sitios web, multimedia y aplicaciones web de alto impacto, usando múltiples plataformas CMS y desarrollo de código a medida.</p><p>Es el que lidera soluciones tecnológicas para los proyectos de clientes que requieren llevar su negocio al mundo digital.</p>",
+                    "photoURL": "/images/julian.png"
+                }
+            ]
+        },
+        "customers":{
+            "title": "Algunos de Nuestros Clientes",
+            "description": "Ellos han tomado la decisión de transformar sus ideas de negocio en grandes marcas con nosotros."
+        },
+        "copyThree": "Creamos experiencias de marca en función de sus usuarios"
+    },
+    "en": {
+        "we":{
+            "title": "We are...",
+            "content":"<p class=\"text-color-white\">A specialized agency in <strong>branding, marketing, and digital tailor-made solutions.</strong></p><p class=\"text-color-white\">We offer innovative solutions of design, strategy, and communication to effectively position brands.</p><p class=\"text-color-white\">We are focused on companies that are looking for advice and support to achieve a greater reach with their communications and whose digital needs outweigh what free digital tools offer.</p>"
+        },
+        "work": {
+            "title": "Por dónde quieres empezar?",
+            "branding": "Branding",
+            "tech": "Technology",
+            "marketing": "Marketing"
+        },
+        "team": {
+            "title": "Who is “EnSusMarcas”?",
+            "description":"<p>We are a team of 4 partners that evaluates comprehensively the needs of each client.</p><p>The DNA of our company is to guarantee the client that the strategy we design for him goes always ahead of us.</p><p>We start from the premise that there is no customer equal to another, that is why our proposals are made to measure.</p><p>We make an initial diagnosis from the point from a creative, marketing, and digital point of view, which leads to identify the needs and brand opportunities.</p>",
+            "members": [
+                {
+                    "name": "María Alejandra Ortegón",
+                    "position": "Director and Digital Marketing Planner",
+                    "cv": "<p>With more than 12 years of experience developing B2B and B2C strategies, customer experience, negotiation, and strategic alliances. Focused on planning, creating, and executing campaigns.</p><p>It is the one that guides projects strategically, through effective team-client communication, participating in the different stages, from planning to delivery of the final product.</p>",
+                    "photoURL": "/images/male.png"
+                },
+                {
+                    "name": "Juan Pablo Duarte ",
+                    "position": "Graphic Designer specializing in brand development and consulting.",
+                    "cv": "<p>For 18 years, it has impacted nearly 200 brands, materializing business ideas and designing experiences through the creation of corporate identity, supporting ventures from different industries in Colombia, Uruguay, Peru, the United States, and the UK.</p><p>He is the one who gives personality to ideas, guided by the passion of creatively conceptualizing them and starting from visual storytelling.</p>",
+                    "photoURL": "/images/juan-pablo.png"
+                },
+                {
+                    "name": "Mauricio Ortiz Maya",
+                    "position": "Graphic designer and photographer, an expert in project management, coordination, and execution.",
+                    "cv": "<p>With more than 17 years of experience leading marketing projects, advertising, and multifunctional teams, developing commercial and negotiation strategies.</p><p>He oversees coordinating the team to establish, manage and optimize the budgets of our clients.</p>",
+                    "photoURL": "/images/mauricio.png"
+                },
+                {
+                    "name": "Julián Bohorquez ",
+                    "position": "Expert in the development and implementation of digital graphic environments from the frontend to the backend.",
+                    "cv": "<p>He has 20 years of experience in cutting-edge design and creation of high-impact websites, multimedia, and web applications, using multiple CMS platforms and custom code development.</p><p>He is the one who leads technological solutions for client projects that require taking their business to the digital world.</p>",
+                    "photoURL": "/images/julian.png"
+                }
+            ]
+        },
+        "customers":{
+            "title": "Some of our customers",
+            "description": "They have made the decision to transform their business ideas into great brands with us."
+        },
+        "copyThree": "We create brand experiences based on your users"
+    }
+}
