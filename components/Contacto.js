@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import contactContext from '../context/contact/contactContext'
 
@@ -11,8 +12,12 @@ import Logo from '../public/images/logo.svg'
 import IconCall from '../public/images/icon-llamar.svg'
 import IconWhatsapp from '../public/images/icon-whatsapp.svg'
 
+import Data from '../locals/contact.json'
 
 const Contacto = () => {
+
+    const router = useRouter()
+    const currentLocale = router.locale
     
     const ContactContext = useContext( contactContext )
     const { mostrarOcultarContacto } = ContactContext
@@ -32,7 +37,7 @@ const Contacto = () => {
                     <figure className="contacto__logo">
                         <Logo />
                     </figure>
-                    <p>Contáctanos mandando un mensaje a nuestro correo electrónico a través del formulario que encuentras a continuación o a través de whatsapp hablando directamente con nuestro director comercial.</p>
+                    <p>{ Data[currentLocale].copyText }</p>
                     <div className="contacto__mauricio">
                         <figure className="mauricio-foto">
                             <div className="mauricio-foto-inner">
@@ -46,13 +51,13 @@ const Contacto = () => {
                         </figure>
                         <div className="descrip">
                             <h3>Mauricio Ortiz</h3>
-                            <p>Director Comercial</p>
+                            <p>{ Data[currentLocale].comercial }</p>
                             <div className="descrip-boton-container">
                                 <Link href="tel:+573007918979">
                                     <a className="btn btn-icon btn-red contacto-llamar"><span><IconCall /></span> Llamar</a>
                                 </Link>
                                 <Link href="https://api.whatsapp.com/send?phone=+573007918979&text=Hola,%20busco%20información%20sobre%20En%20Sus%20Marcas">
-                                    <a className="btn btn-icon btn-red contacto-escribir" target="_blank"><span><IconWhatsapp /></span> Escribir</a>
+                                    <a className="btn btn-icon btn-red contacto-escribir" target="_blank"><span><IconWhatsapp /></span> { Data[currentLocale].cta }</a>
                                 </Link>
                             </div>
                         </div>

@@ -23,6 +23,10 @@ const Header = () => {
     
     const router = useRouter()
     const { pathname, locale } = router
+
+    const prevenirDefault = e => {
+        e.preventDefault()
+    } 
     
     return(
         <header className="header">
@@ -56,9 +60,10 @@ const Header = () => {
                         </li>
                         <li className={`nav-item ${ pathname === '/contacto' ? 'nav-item-current' : '' }`}>
                             <Link href="#">
-                                <a onClick={ () => {
+                                <a onClick={ e => {
                                     mostrarOcultarContacto( true )
                                     abrirCerrarMenu( false )
+                                    prevenirDefault( e )
                                 } }>{ Labels[ locale ].contact }</a>
                             </Link>
                         </li>

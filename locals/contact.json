@@ -1,0 +1,12 @@
+{
+    "es": {
+        "copyText": "Contáctanos mandando un mensaje a nuestro correo electrónico a través del formulario que encuentras a continuación o a través de whatsapp hablando directamente con nuestro director comercial.",
+        "comercial": "Director Comercial",
+        "cta": "Contactar"
+    },
+    "en": {
+        "copyText": "Contact us by email through the form that you find below, or via WhatsApp.",
+        "comercial": "Commercial Director",
+        "cta": "Contact"
+    }
+}
