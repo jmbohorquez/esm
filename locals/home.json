@@ -1,5 +1,9 @@
 {
     "es": {
+        "heroCopy": {
+            "title": "Creamos soluciones <br />integrales para tu marca",
+            "subTitle": "Posicionamos tu Marca, enfocados en lo que se ve y en lo que aparentemente no se ve."
+        },
         "we": {
             "title": "Quiénes somos",
             "content":"<p class=\"text-color-white\">Agencia especializada en <strong>branding, marketing y soluciones digitales</strong> hechas a la medida de cada cliente.</p><p class=\"text-color-white\">Ofrecemos soluciones innovadoras de diseño, estrategia y comunicación para posicionar de manera efectiva las marcas. Nos dirigimos a <strong>pequeñas y medianas empresas</strong>, que buscan asesoría y acompañamiento para lograr un mayor alcance con sus comunicaciones y cuyas necesidades digitales superan, lo que las herramientas digitales gratuitas ofrecen.</p><p class=\"text-color-white\">Empresas que ya lanzaron su producto o servicio y están en busca de nuevas estrategias y herramientas para <strong>incrementar sus ventas</strong>.</p>"
@@ -44,15 +48,20 @@
             "title": "Algunos de Nuestros Clientes",
             "description": "Ellos han tomado la decisión de transformar sus ideas de negocio en grandes marcas con nosotros."
         },
-        "copyThree": "Creamos experiencias de marca en función de sus usuarios"
+        "copyThree": "Creamos experiencias de marca en función de sus usuarios",
+        "commentsTitle": "Esto dicen nuestros clientes"
     },
     "en": {
+        "heroCopy": {
+            "title": "We create integral <br />solutions for your brand",
+            "subTitle": "We position your brand"
+        },
         "we":{
             "title": "We are...",
             "content":"<p class=\"text-color-white\">A specialized agency in <strong>branding, marketing, and digital tailor-made solutions.</strong></p><p class=\"text-color-white\">We offer innovative solutions of design, strategy, and communication to effectively position brands.</p><p class=\"text-color-white\">We are focused on companies that are looking for advice and support to achieve a greater reach with their communications and whose digital needs outweigh what free digital tools offer.</p>"
         },
         "work": {
-            "title": "Por dónde quieres empezar?",
+            "title": "Do you want to start now?",
             "branding": "Branding",
             "tech": "Technology",
             "marketing": "Marketing"
@@ -91,6 +100,7 @@
             "title": "Some of our customers",
             "description": "They have made the decision to transform their business ideas into great brands with us."
         },
-        "copyThree": "We create brand experiences based on your users"
+        "copyThree": "We create brand experiences based on your users",
+        "commentsTitle": "Our clients say"
     }
 }

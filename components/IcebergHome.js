@@ -6,7 +6,7 @@ import Flag from '../public/images/iceberg/flag.svg'
 import Iceberg from '../public/images/iceberg/iceberg.svg'
 import Mar from '../public/images/iceberg/mar.svg'
 
-const IcebergHome = () => {
+const IcebergHome = ({ copyText }) => {
     return(
         <div className="iceberg">
             <div className="iceberg-laptop">
@@ -27,7 +27,7 @@ const IcebergHome = () => {
                         <Mar />
                     </div>
                     <div className="iceberg-text">
-                        <p>Posicionamos tu Marca, enfocados en lo que se ve y en lo que aparentemente no se ve.</p>
+                        <p>{ copyText }</p>
                     </div>
                 </div>
                 <figure className="iceberg-image-container">

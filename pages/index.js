@@ -55,12 +55,14 @@ const Home = ({ locale }) => {
                 <div className="site-banner-inner center">
                     <Header />
                     <div className="site__banner-copy">
-                        <h2 className="text-align-center">Creamos soluciones <br />integrales para tu marca</h2>
+                        <h2 className="text-align-center" dangerouslySetInnerHTML={{ __html: Locals[ locale ].heroCopy.title }} />
                     </div>
                 </div>
             </section>
             <main className="inicio__main-body">
-                <IcebergHome />
+                <IcebergHome 
+                    copyText = { Locals[ locale ].heroCopy.subTitle }
+                />
                 <div className="inicio__quienes-somos">
                     <div className="inicio__quienes-somos-text-container flex">
                         <div className="col-space col-space-left"></div>
@@ -247,7 +249,7 @@ const Home = ({ locale }) => {
                     </div>
                 </div>
                 <div className="inicio__comentarios panel">
-                    <h2>Esto dicen Nuestros Clientes</h2>
+                    <h2>{ Locals[ locale ].commentsTitle }</h2>
                     <CommentSlider />
                 </div>
             </main>

@@ -185,11 +185,26 @@ const Proyecto = ({ data }) => {
     )
 }
 
-export const getStaticPaths = () => {
+export const getStaticPaths = ({ locales }) => {
 
-    const paths = proyectosList.map( proyecto => ({
-        params: { nombre: proyecto.nombre }
-    }) )
+    let paths = []
+    
+    proyectosList.map( proyecto => {
+        
+        locales.map( locale => {
+
+            paths.push({
+
+                params:{
+                    nombre: proyecto.nombre
+                },
+                locale
+
+            })
+
+        })
+
+    })
 
     return{
         paths,
@@ -198,7 +213,7 @@ export const getStaticPaths = () => {
 
 }
 
-export const getStaticProps = ({ params }) => {
+export const getStaticProps = ({ locale, params }) => {
 
     const data = proyectosList.find( proyecto => proyecto.nombre == params.nombre )
 
