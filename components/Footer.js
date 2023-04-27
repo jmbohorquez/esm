@@ -26,17 +26,29 @@ const Footer = () => {
                 <div className="footer_column center">
                     <h3>{ Labels[ locale ].title }</h3>
                     <div className="footer__redes-container">
-                        <Link href="https://www.facebook.com/esmarcas">
-                            <a target="_blank"><Facebook /></a>
+                        <Link 
+                            href="https://www.facebook.com/esmarcas"
+                            target="_blank"
+                        >
+                            <Facebook />
                         </Link>
-                        <Link href="https://www.instagram.com/estamosensusmarcas/">
-                            <a target="_blank"><Instagram /></a>
+                        <Link 
+                            href="https://www.instagram.com/estamosensusmarcas/"
+                            target="_blank"
+                        >
+                           <Instagram />
                         </Link>
-                        <Link href="https://www.linkedin.com/company/esmarcas/">
-                            <a target="_blank"><Linkedin /></a>
+                        <Link 
+                            href="https://www.linkedin.com/company/esmarcas/"
+                            target="_blank"
+                        >
+                            <Linkedin />
                         </Link>
-                        <Link href="#">
-                            <a onClick={ () => mostrarOcultarContacto( true ) }><Mail /></a>
+                        <Link 
+                            href="#"
+                            onClick={ () => mostrarOcultarContacto( true ) }
+                        >
+                            <Mail />
                         </Link>
                     </div>
                     <p>©{ new Date().getFullYear() } EnSusMarcas <br />

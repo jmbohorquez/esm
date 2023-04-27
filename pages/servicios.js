@@ -148,8 +148,11 @@ const Servicios = ({ locale }) => {
                                     }
                                 </ul>
                             </div>
-                            <Link href="/proyectos">
-                                <a className="btn btn-blanco">{ Locals[ locale ].services[0].btnCta }</a>
+                            <Link 
+                                href="/proyectos"
+                                className="btn btn-blanco"
+                            >
+                                { Locals[ locale ].services[0].btnCta }
                             </Link>
                         </div>
                         <div className="servicios__image">
@@ -174,8 +177,11 @@ const Servicios = ({ locale }) => {
                                     }
                                 </ul>
                             </div>
-                            <Link href="/proyectos">
-                                <a className="btn btn-blanco">{ Locals[ locale ].services[1].btnCta }</a>
+                            <Link 
+                                href="/proyectos"
+                                className="btn btn-blanco"
+                            >
+                                { Locals[ locale ].services[1].btnCta }
                             </Link>
                         </div>
                         <div className="servicios__image">
@@ -200,8 +206,11 @@ const Servicios = ({ locale }) => {
                                     }
                                 </ul>
                             </div>
-                            <Link href="/proyectos">
-                                <a className="btn btn-blanco">{ Locals[ locale ].services[2].btnCta }</a>
+                            <Link 
+                                href="/proyectos"
+                                className="btn btn-blanco"
+                            >
+                                { Locals[ locale ].services[2].btnCta }
                             </Link>
                         </div>
                         <div className="servicios__image">

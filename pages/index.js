@@ -83,27 +83,21 @@ const Home = ({ locale }) => {
                             <h3 className="text-align-center">{ Locals[ locale ].work.title }</h3>
                             <ul className="no-list">
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/servicios#Branding">
-                                        <a>
-                                            <Branding />
-                                            { Locals[ locale ].work.branding }
-                                        </a>
+                                    <Link href="/servicios#Branding" scroll={false}>
+                                        <Branding />
+                                        { Locals[ locale ].work.branding }
                                     </Link>
                                 </li>
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/servicios#Tecnologia">
-                                        <a>
-                                            <Tecnologia />
-                                            { Locals[ locale ].work.tech }
-                                        </a>
+                                    <Link href="/servicios#Tecnologia" scroll={false}>
+                                        <Tecnologia />
+                                        { Locals[ locale ].work.tech }
                                     </Link>
                                 </li>
                                 <li className="inicio__quienes-somos-item">
-                                    <Link href="/servicios#Marketing">
-                                        <a>
-                                            <Marketing />
-                                            { Locals[ locale ].work.marketing }
-                                        </a>
+                                    <Link href="/servicios#Marketing" scroll={false}>
+                                        <Marketing />
+                                        { Locals[ locale ].work.marketing }
                                     </Link>
                                 </li>
                             </ul>
@@ -239,8 +233,7 @@ const Home = ({ locale }) => {
                         <Image 
                             alt="experiencias de marca"
                             src="/images/home-copy-surf@2x-50.jpg"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
                         />
                     </figure>
                     <div className="inicio__copy-inner">

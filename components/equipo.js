@@ -8,7 +8,6 @@ const Equipo = ({ imagen, nombre, cargo, descripcion }) => {
                     <Image 
                         alt={ nombre }
                         src={ imagen }
-                        layout="intrinsic"
                         height={ 420 }
                         width={ 382 }
                     />

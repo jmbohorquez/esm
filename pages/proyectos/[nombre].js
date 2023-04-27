@@ -44,8 +44,7 @@ const Proyecto = ({ data }) => {
                             <Image 
                                 alt={ data.heroTitle }
                                 src={ data.heroImg }
-                                layout="fill"
-                                objectFit="cover"
+                                fill
                                 priority
                             />
                         </figure>
@@ -68,7 +67,6 @@ const Proyecto = ({ data }) => {
                                 <Image 
                                     alt={ data.heroTitle }
                                     src={ data.conceptoLogo }
-                                    layout="intrinsic"
                                     height={ 700 }
                                     width={ 700 }
                                 />
@@ -79,7 +77,6 @@ const Proyecto = ({ data }) => {
                         <Image 
                             alt={ data.heroTitle }
                             src={ data.conceptoBanner }
-                            layout="intrinsic"
                             height={ 1063 }
                             width={ 1920  }
                         />
@@ -89,15 +86,13 @@ const Proyecto = ({ data }) => {
                     <Image 
                         alt={ data.heroTitle }
                         src={ data.marcaCTA }
-                        layout="fill"
-                        objectFit="cover"
+                        fill
                     />
                 </div>
                 <div className="proyecto__post-cta">
                     <Image 
                         alt={ data.heroTitle }
                         src={ data.imgPostCTA }
-                        layout="intrinsic"
                         height={ 1177 }
                         width={ 1920  }
                     />
@@ -115,7 +110,6 @@ const Proyecto = ({ data }) => {
                         <Image 
                             alt={ data.heroTitle }
                             src={ data.construccionMarca }
-                            layout="intrinsic"
                             height={ 504 }
                             width={ 1280  }
                         />
@@ -124,7 +118,6 @@ const Proyecto = ({ data }) => {
                         <Image 
                             alt={ data.heroTitle }
                             src={ data.construccionImagen }
-                            layout="intrinsic"
                             height={ 1003 }
                             width={ 1920  }
                         />
@@ -135,7 +128,6 @@ const Proyecto = ({ data }) => {
                                 <Image 
                                     alt={ data.heroTitle }
                                     src={ data.simbolo }
-                                    layout="intrinsic"
                                     height={ 300 }
                                     width={ 229 }
                                 />
@@ -148,7 +140,6 @@ const Proyecto = ({ data }) => {
                             <Image
                                 alt={ data.heroTitle }
                                 src={ data.bocetos }
-                                layout="intrinsic"
                                 height={ 1146 }
                                 width={ 1920 }
                             />
@@ -171,7 +162,6 @@ const Proyecto = ({ data }) => {
                                     <Image
                                         alt={ data.heroTitle }
                                         src={ img }
-                                        layout="intrinsic"
                                         height={ imageSizes[index].height }
                                         width={ imageSizes[index].width }
                                     />

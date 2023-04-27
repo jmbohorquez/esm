@@ -67,7 +67,6 @@ const CommentSlider = () => {
                                 <Image 
                                     alt={`logo ${ comment.company }`}
                                     src={ comment.iconUrl }
-                                    layout="fixed"
                                     height={ 64 }
                                     width={ 64 }
                                 />

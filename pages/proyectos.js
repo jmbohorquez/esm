@@ -37,13 +37,11 @@ const Proyectos = ({ locale }) => {
                             </figure>
                         </div>
                         <Link href="/proyectos/jar-deen">
-                            <a>
                                 <div className="proyectos__link-description">
                                     <span className="proyectos__link-name">Jar-Deen</span>
                                     <span className="proyectos__link-title">Comida vegana con Amor</span>
                                     <span className="proyectos__link-sub-title">Desarrollo de marca y fotografía</span>
                                 </div>
-                            </a>
                         </Link>
                     </div>
                     <div className="proyectos__compuesto ancho-50">
@@ -59,7 +57,7 @@ const Proyectos = ({ locale }) => {
                                 </figure>
                             </div>
                             <Link href="/proyectos/escape">
-                                <a>
+                                
                                     <figure className="proyectos__link-image">
 
                                     </figure>
@@ -68,7 +66,7 @@ const Proyectos = ({ locale }) => {
                                         <span className="proyectos__link-title">Un viajero sabe lo que otro necesita</span>
                                         <span className="proyectos__link-sub-title">Desarrollo de marca y tecnológico</span>
                                     </div>
-                                </a>
+                                
                             </Link>
                         </div>
                         <div className="proyectos__link-container proyectos__outbox proyectos_link-height-50">
@@ -83,7 +81,7 @@ const Proyectos = ({ locale }) => {
                                 </figure>
                             </div>
                             <Link href="/proyectos/outbox">
-                                <a>
+                                
                                     <figure className="proyectos__link-image">
 
                                     </figure>
@@ -92,7 +90,7 @@ const Proyectos = ({ locale }) => {
                                         <span className="proyectos__link-title">We Are In</span>
                                         <span className="proyectos__link-sub-title">Desarrollo de marca</span>
                                     </div>
-                                </a>
+                                
                             </Link>
                         </div>
                     </div>

@@ -38,39 +38,24 @@ const Contacto = () => {
                         <Logo />
                     </figure>
                     <p>{ Data[currentLocale].copyText }</p>
-                    <div className="contacto__mauricio">
-                        <figure className="mauricio-foto">
-                            <div className="mauricio-foto-inner">
-                                <Image 
-                                    alt="Mauricio Ortiz, Director comercial"
-                                    src="/images/mauricio-ortis.png"
-                                    layout="fill"
-                                    objectFit="contain"
-                                />
-                            </div>
-                        </figure>
-                        <div className="descrip">
-                            <h3>Mauricio Ortiz</h3>
-                            <p>{ Data[currentLocale].comercial }</p>
-                            <div className="descrip-boton-container">
-                                <Link href="tel:+573007918979">
-                                    <a className="btn btn-icon btn-red contacto-llamar"><span><IconCall /></span> Llamar</a>
-                                </Link>
-                                <Link href="https://api.whatsapp.com/send?phone=+573007918979&text=Hola,%20busco%20información%20sobre%20En%20Sus%20Marcas">
-                                    <a className="btn btn-icon btn-red contacto-escribir" target="_blank"><span><IconWhatsapp /></span> { Data[currentLocale].cta }</a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
                     <div className="contacto__redes">
-                        <Link href="https://www.facebook.com/esmarcas">
-                            <a target="_blank"><Facebook /></a>
+                        <Link 
+                            href="https://www.facebook.com/esmarcas"
+                            target="_blank"
+                        >
+                            <Facebook />
                         </Link>
-                        <Link href="https://www.instagram.com/estamosensusmarcas/">
-                            <a target="_blank"><Instagram /></a>
+                        <Link 
+                            href="https://www.instagram.com/estamosensusmarcas/"
+                            target="_blank"
+                        >
+                            <Instagram />
                         </Link>
-                        <Link href="https://www.linkedin.com/company/esmarcas/">
-                            <a target="_blank"><LinkedIn /></a>
+                        <Link 
+                            href="https://www.linkedin.com/company/esmarcas/"
+                            target="_blank"
+                        >
+                            <LinkedIn />
                         </Link>
                     </div>
                 </div>

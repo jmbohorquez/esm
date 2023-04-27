@@ -26,8 +26,11 @@ const LocalSwitcher = () => {
 
                     return(
                         <li key={ locale } className={ locale === currentLocaleState && 'current' }>
-                            <Link href={{ pathname, query }} as={ asPath } locale={ locale } >
-                                <a>{ locale }</a>
+                            <Link 
+                                href={{ pathname, query }} 
+                                as={ asPath } locale={ locale } 
+                            >
+                                { locale }
                             </Link>
                         </li>
                     )

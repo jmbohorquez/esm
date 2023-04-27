@@ -31,12 +31,6 @@
                     "photoURL": "/images/juan-pablo.png"
                 },
                 {
-                    "name": "Mauricio Ortiz Maya",
-                    "position": "Diseñador Gráfico y fotógrafo, experto en gestión, coordinación y ejecución de proyectos.",
-                    "cv": "<p>Con más de 17 años de experiencia liderando proyectos de mercadeo, publicidad y equipos multifuncionales, desarrollando estrategias comerciales y de negociación.</p><p>Es el encargado de coordinar el equipo para establecer, gestionar y optimizar los presupuestos de nuestros clientes.</p>",
-                    "photoURL": "/images/mauricio.png"
-                },
-                {
                     "name": "Julián Bohorquez",
                     "position": "Experto en desarrollo e implementación de entornos graficos digitales desde el frontend hasta el backend.",
                     "cv": "<p>Cuenta con 20 años de experiencia en diseño vanguardista y creación de sitios web, multimedia y aplicaciones web de alto impacto, usando múltiples plataformas CMS y desarrollo de código a medida.</p><p>Es el que lidera soluciones tecnológicas para los proyectos de clientes que requieren llevar su negocio al mundo digital.</p>",
@@ -81,12 +75,6 @@
                     "position": "Graphic Designer specializing in brand development and consulting.",
                     "cv": "<p>For 18 years, it has impacted nearly 200 brands, materializing business ideas and designing experiences through the creation of corporate identity, supporting ventures from different industries in Colombia, Uruguay, Peru, the United States, and the UK.</p><p>He is the one who gives personality to ideas, guided by the passion of creatively conceptualizing them and starting from visual storytelling.</p>",
                     "photoURL": "/images/juan-pablo.png"
-                },
-                {
-                    "name": "Mauricio Ortiz Maya",
-                    "position": "Graphic designer and photographer, an expert in project management, coordination, and execution.",
-                    "cv": "<p>With more than 17 years of experience leading marketing projects, advertising, and multifunctional teams, developing commercial and negotiation strategies.</p><p>He oversees coordinating the team to establish, manage and optimize the budgets of our clients.</p>",
-                    "photoURL": "/images/mauricio.png"
                 },
                 {
                     "name": "Julián Bohorquez ",

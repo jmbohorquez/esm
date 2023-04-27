@@ -34,8 +34,7 @@ const IcebergHome = ({ copyText }) => {
                     <Image 
                         alt="laptop"
                         src="/images/laptop.png"
-                        layout='fill'
-                        objectFit='contain'
+                        fill
                         quality={100}
                     />
                 </figure>

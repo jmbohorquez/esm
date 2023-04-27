@@ -15,13 +15,6 @@
     },
     {
         "id": 3,
-        "nombre": "Mauricio Ortiz",
-        "cargo": "Diseñador Gráfico y fotógrafo, experto en gestión, coordinación y ejecución de proyectos.",
-        "imagen": "/images/mauricio.png",
-        "descripcion": "<p>Con más de 17 años de experiencia liderando proyectos de mercadeo, publicidad y equipos multifuncionales, desarrollando estrategias comerciales y de negociación.</p><p>Es el encargado de coordinar el equipo para establecer, gestionar y optimizar los presupuestos de nuestros clientes.</p>"
-    },
-    {
-        "id": 4,
         "nombre": "Julian Bohorquez",
         "cargo": "Experto en desarrollo e implementación de entornos graficos digitales desde el frontend hasta el backend.",
         "imagen": "/images/julian.png",

@@ -36,8 +36,12 @@ const ServicioItem = ({ title, icon, content, cta, link }) => {
                 <div className="circle-bg" ref={ CircleBG }></div>
             </div>
             <p>{ content }</p>
-            <Link href={ link }>
-                <a className="btn btn-blanco" ref={ BtnBrand }>{ cta }</a>
+            <Link 
+                href={ link }
+                className="btn btn-blanco"
+                ref={ BtnBrand }
+            >
+                { cta }
             </Link>
         </div>
     )
